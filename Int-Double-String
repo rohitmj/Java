@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Enter an integer: ");
+        int integer = scan.nextInt();
+        
+        System.out.print("Enter a double: ");
+        double decimal = scan.nextDouble();
+        
+        scan.nextLine();
+        
+        System.out.print("Enter a string: ");
+        String text = scan.nextLine();
+
+        
+        System.out.println("You entered:")
+        System.out.println("Integer: " + integer);
+        System.out.println("Double: " + decimal);
+        System.out.println("String: " + text);
+        
+        scan.close();
+    }
+}
