@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class PrintThreeIntegers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the first integer: ");
+        int firstInteger = scanner.nextInt();
+        
+        System.out.print("Enter the second integer: ");
+        int secondInteger = scanner.nextInt();
+        
+        System.out.print("Enter the third integer: ");
+        int thirdInteger = scanner.nextInt();
+        
+        System.out.println("The entered integers are: ");
+        System.out.println(firstInteger);
+        System.out.println(secondInteger);
+        System.out.println(thirdInteger);
+        
+        scanner.close();
+        
+    }
+}
